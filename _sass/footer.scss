@@ -1,0 +1,42 @@
+footer {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 1em;
+
+  #impressum {
+    p {
+      padding-bottom: 1rem;
+    }
+    color: black;
+
+    h1 {
+
+      text-transform: unset;
+    }
+
+    h2 {
+      text-transform: unset;
+    }
+
+    outline: none;
+
+    .modal-dialog {
+      @include media-breakpoint-up(md) {
+        max-width: 75%;
+      }
+    }
+  }
+
+  button {
+    color: black;
+    background: unset;
+    border: unset;
+    cursor: pointer;
+    &:focus {
+      outline: unset;
+    }
+  }
+}

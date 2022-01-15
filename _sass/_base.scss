@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.logo {
+  width: 200px;
+  border-radius: 25px;
+  margin-right: 50px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  h1 {
+    color: rgb(0, 162, 255);
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: #f64b4b;
+  }
+}
